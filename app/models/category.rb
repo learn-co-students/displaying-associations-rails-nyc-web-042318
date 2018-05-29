@@ -1,2 +1,4 @@
+# This category class will have many post objects.
 class Category < ActiveRecord::Base
-end
+    has_many :posts
+  end
